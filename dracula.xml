@@ -25,7 +25,7 @@
   <style name="Function" foreground="#67f469"/>
   <style name="Keyword" foreground="#e65ab9" bold="true"/>
   <style name="PrimitiveType" foreground="#7ce4fb" italic="true"/>
-  <style name="Operator" foreground="#ffffff"/>
+  <style name="Operator" foreground="#daffca"/>
   <style name="Preprocessor" foreground="#ff79c6"/>
   <style name="Label" foreground="#e4a94d"/>
   <style name="Comment" foreground="#6272a4" bold="true"/>
