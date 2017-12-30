@@ -46,14 +46,14 @@
   <style name="DisabledCode" foreground="#545454"/>
   <style name="AddedLine" foreground="#00aa00"/>
   <style name="RemovedLine" foreground="#ff0000"/>
-  <style name="DiffFile" foreground="#000080"/>
-  <style name="DiffLocation" foreground="#0000ff"/>
-  <style name="DiffFileLine" background="#ffff00"/>
-  <style name="DiffContextLine" background="#afd7e7"/>
-  <style name="DiffSourceLine" background="#ffdfdf"/>
-  <style name="DiffSourceChar" background="#ffafaf"/>
-  <style name="DiffDestLine" background="#dfffdf"/>
-  <style name="DiffDestChar" background="#afffaf"/>
+  <style name="DiffFile" foreground="#a481d9"/>
+  <style name="DiffLocation" foreground="#2e98e3"/>
+  <style name="DiffFileLine" foreground="#4500da" background="#ebfa82"/>
+  <style name="DiffContextLine" foreground="#4500da" background="#b4b4b4"/>
+  <style name="DiffSourceLine" foreground="#4500da" background="#ffdfdf"/>
+  <style name="DiffSourceChar" foreground="#4500da" background="#ffafaf"/>
+  <style name="DiffDestLine" foreground="#4500da" background="#dfffdf"/>
+  <style name="DiffDestChar" foreground="#4500da" background="#c0c0ff"/>
   <style name="LogChangeLine" foreground="#c00000"/>
   <style name="Warning" underlineColor="#ffbe00" underlineStyle="SingleUnderline"/>
   <style name="WarningContext" underlineColor="#ffbe00" underlineStyle="DotLine"/>
