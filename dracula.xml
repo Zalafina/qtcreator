@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <style-scheme version="1.0" name="Dracula">
-  <style name="Text" foreground="#ffffff" background="#282a36"/>
-  <style name="Link" foreground="#0000ff"/>
-  <style name="Selection" background="#676767"/>
-  <style name="LineNumber" foreground="#b9b8b6" background="#1e1f28"/>
-  <style name="SearchResult" foreground="#d57544" background="#3a4c83" bold="true"/>
-  <style name="SearchScope" foreground="#000000"/>
+  <style name="Text" foreground="#f8f8f2" background="#282a36"/>
+  <style name="Link" foreground="#8be9fd" underlineStyle="SingleUnderline"/>
+  <style name="Selection" background="#44475a"/>
+  <style name="LineNumber" foreground="#6272a4"/>
+  <style name="SearchResult" foreground="#d57544" bold="true"/>
+  <style name="SearchScope" foreground="#000000" background="#f8f8f2"/>
   <style name="Parentheses" foreground="#ffff00" background="#4d87de" bold="true"/>
   <style name="ParenthesesMismatch" foreground="#000000" background="#ff00ff"/>
   <style name="AutoComplete" foreground="#000080" background="#c0c0ff"/>
@@ -44,21 +44,22 @@
   <style name="QmlStateName" foreground="#2985c7" italic="true"/>
   <style name="Binding" foreground="#e55858"/>
   <style name="DisabledCode" foreground="#545454"/>
-  <style name="AddedLine" foreground="#00aa00"/>
-  <style name="RemovedLine" foreground="#ff0000"/>
-  <style name="DiffFile" foreground="#a481d9"/>
-  <style name="DiffLocation" foreground="#2e98e3"/>
-  <style name="DiffFileLine" foreground="#4500da" background="#ebfa82"/>
-  <style name="DiffContextLine" foreground="#4500da" background="#b4b4b4"/>
-  <style name="DiffSourceLine" foreground="#4500da" background="#ffdfdf"/>
-  <style name="DiffSourceChar" foreground="#4500da" background="#ffafaf"/>
-  <style name="DiffDestLine" foreground="#4500da" background="#dfffdf"/>
-  <style name="DiffDestChar" foreground="#4500da" background="#c0c0ff"/>
-  <style name="LogChangeLine" foreground="#c00000"/>
+  <style name="AddedLine" foreground="#50fa7b"/>
+  <style name="RemovedLine" foreground="#ff5555"/>
+  <style name="DiffFile" foreground="#8be9fd"/>
+  <style name="DiffLocation" foreground="#ffb86c"/>
+  <style name="DiffFileLine" foreground="#282a36" background="#f1fa8c"/>
+  <style name="DiffContextLine" foreground="#282a36" background="#8be9fd"/>
+  <style name="DiffSourceLine" background="#ff5555"/>
+  <style name="DiffSourceChar" background="#cc2222"/>
+  <style name="DiffDestLine" foreground="#282a36" background="#50fa7b"/>
+  <style name="DiffDestChar" foreground="#282a36" background="#1dc748"/>
+  <style name="LogChangeLine" foreground="#ff5555"/>
   <style name="Warning" underlineColor="#ffbe00" underlineStyle="SingleUnderline"/>
   <style name="WarningContext" underlineColor="#ffbe00" underlineStyle="DotLine"/>
   <style name="Error" underlineColor="#ff0000" underlineStyle="SingleUnderline"/>
   <style name="ErrorContext" underlineColor="#ff0000" underlineStyle="DotLine"/>
-  <style name="Declaration"/>
-  <style name="C_OUTPUT_ARGUMENT"/>
+  <style name="Declaration" bold="true"/>
+  <style name="FunctionDefinition"/>
+  <style name="OutputArgument" italic="true"/>
 </style-scheme>
