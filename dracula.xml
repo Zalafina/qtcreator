@@ -10,7 +10,7 @@
   <style name="ParenthesesMismatch" foreground="#000000" background="#ff00ff"/>
   <style name="AutoComplete" foreground="#000080" background="#c0c0ff"/>
   <style name="CurrentLine" foreground="#000000" background="#53616f"/>
-  <style name="CurrentLineNumber" foreground="#eefa7a" bold="true"/>
+  <style name="CurrentLineNumber" foreground="#eefa7a"/>
   <style name="Occurrences" foreground="#000000" background="#b4b4b4"/>
   <style name="Occurrences.Unused" foreground="#808000"/>
   <style name="Occurrences.Rename" foreground="#000000" background="#ff6464"/>
@@ -28,9 +28,9 @@
   <style name="Operator" foreground="#daffca"/>
   <style name="Preprocessor" foreground="#ff79c6"/>
   <style name="Label" foreground="#e4a94d"/>
-  <style name="Comment" foreground="#6272a4" bold="true"/>
+  <style name="Comment" foreground="#6272a4"/>
   <style name="Doxygen.Comment" foreground="#9c998e"/>
-  <style name="Doxygen.Tag" foreground="#bcb9ac" bold="true"/>
+  <style name="Doxygen.Tag" foreground="#bcb9ac"/>
   <style name="VisualWhitespace" foreground="#c0c0c0"/>
   <style name="QmlLocalId" foreground="#2985c7" italic="true"/>
   <style name="QmlExternalId" foreground="#000080" italic="true"/>
